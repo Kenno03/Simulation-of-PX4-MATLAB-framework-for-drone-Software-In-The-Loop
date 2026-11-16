@@ -1,0 +1,34 @@
+﻿# Simulink generated files
+slprj/
+*_ert_rtw/
+*.slxc
+
+# Autosaves / backups
+*.slx.autosave
+*.autosave
+*.asv
+*.bak
+
+# MATLAB generated files
+codegen/
+*.mexw64
+*.mex*
+
+# Generated reports
+reports/
+
+# Generated run outputs (tuning sessions, linearisation/controller results)
+/TuningSessions/
+/linearization_results/
+
+# Flight-validation and older tuning/debug run folders
+/FlightValidation_*/
+/PX4_Full_Tuning_*/
+/local_debug*/
+
+# Generated PX4 executable (rebuilt on each computer)
+/PX4_Receive
+
+# OS files
+Thumbs.db
+.DS_Store
